@@ -1,0 +1,695 @@
+The system is: Linux - 3.10.0-514.10.2.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/wxk/cpp/tensorRT_Pro/CMakeFiles/3.7.0-rc2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/wxk/cpp/tensorRT_Pro/CMakeFiles/3.7.0-rc2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cd5ba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cd5ba.dir/build.make CMakeFiles/cmTC_cd5ba.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd5ba.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_cd5ba.dir/testCCompiler.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_cd5ba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd5ba.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_cd5ba.dir/testCCompiler.c.o  -o cmTC_cd5ba -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_992ec/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_992ec.dir/build.make CMakeFiles/cmTC_992ec.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_992ec
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992ec.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o  -o cmTC_992ec -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper
+目标：x86_64-pc-linux-gnu
+配置为：../gcc-6.4.0/configure -enable-checking=release -enable-languages=c,c++ -disable-multilib
+线程模型：posix
+gcc 版本 6.4.0 (GCC) 
+COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_992ec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/home/wxk/tmp/ccVI0vNg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_992ec /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_992ec' '-rdynamic' '-mtune=generic' '-march=x86-64'
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_992ec/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_992ec.dir/build.make CMakeFiles/cmTC_992ec.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”]
+  ignore line: [Building C object CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_992ec]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_992ec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o  -o cmTC_992ec -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper]
+  ignore line: [目标：x86_64-pc-linux-gnu]
+  ignore line: [配置为：../gcc-6.4.0/configure -enable-checking=release -enable-languages=c,c++ -disable-multilib]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 6.4.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_992ec' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper -plugin-opt=-fresolution=/home/wxk/tmp/ccVI0vNg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_992ec /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../.. CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/home/wxk/tmp/ccVI0vNg.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_992ec] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0]
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..]
+    arg [CMakeFiles/cmTC_992ec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0] ==> [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0]
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../../../lib64] ==> [/usr/local/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0/../../..] ==> [/usr/local/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/local/lib/gcc/x86_64-pc-linux-gnu/6.4.0;/usr/local/lib64;/lib64;/usr/lib64;/usr/local/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_fb0ff/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_fb0ff.dir/build.make CMakeFiles/cmTC_fb0ff.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fb0ff.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_fb0ff.dir/feature_tests.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fb0ff
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb0ff.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_fb0ff.dir/feature_tests.c.o  -o cmTC_fb0ff -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_f98f6/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_f98f6.dir/build.make CMakeFiles/cmTC_f98f6.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_f98f6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_f98f6.dir/feature_tests.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f98f6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f98f6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f98f6.dir/feature_tests.c.o  -o cmTC_f98f6 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_72e41/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_72e41.dir/build.make CMakeFiles/cmTC_72e41.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_72e41.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_72e41.dir/feature_tests.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.c
+Linking C executable cmTC_72e41
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e41.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_72e41.dir/feature_tests.c.o  -o cmTC_72e41 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_08fdc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_08fdc.dir/build.make CMakeFiles/cmTC_08fdc.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_08fdc.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_08fdc.dir/testCXXCompiler.cxx.o -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_08fdc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08fdc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_08fdc.dir/testCXXCompiler.cxx.o  -o cmTC_08fdc -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_aa7af/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_aa7af.dir/build.make CMakeFiles/cmTC_aa7af.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_aa7af
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa7af.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aa7af -rdynamic  
+使用内建 specs。
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper
+目标：x86_64-redhat-linux
+配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
+线程模型：posix
+gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa7af' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aa7af /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_aa7af/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_aa7af.dir/build.make CMakeFiles/cmTC_aa7af.dir/build]
+  ignore line: [gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”]
+  ignore line: [Building CXX object CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_aa7af]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa7af.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_aa7af -rdynamic  ]
+  ignore line: [使用内建 specs。]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/lto-wrapper]
+  ignore line: [目标：x86_64-redhat-linux]
+  ignore line: [配置为：../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --disable-libgcj --with-isl=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.5-20150702/obj-x86_64-redhat-linux/cloog-install --enable-gnu-indirect-function --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
+  ignore line: [线程模型：posix]
+  ignore line: [gcc 版本 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.5/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aa7af' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_aa7af /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aa7af] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [CMakeFiles/cmTC_aa7af.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_c3cfb/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_c3cfb.dir/build.make CMakeFiles/cmTC_c3cfb.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_c3cfb.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++1y -o CMakeFiles/cmTC_c3cfb.dir/feature_tests.cxx.o -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c3cfb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cfb.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c3cfb.dir/feature_tests.cxx.o  -o cmTC_c3cfb -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_e749e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_e749e.dir/build.make CMakeFiles/cmTC_e749e.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_e749e.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_e749e.dir/feature_tests.cxx.o -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e749e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e749e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e749e.dir/feature_tests.cxx.o  -o cmTC_e749e -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7ce00/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7ce00.dir/build.make CMakeFiles/cmTC_7ce00.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building CXX object CMakeFiles/cmTC_7ce00.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_7ce00.dir/feature_tests.cxx.o -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ce00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ce00.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_7ce00.dir/feature_tests.cxx.o  -o cmTC_7ce00 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4ebba/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4ebba.dir/build.make CMakeFiles/cmTC_4ebba.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4ebba.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_4ebba.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4ebba
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ebba.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_4ebba.dir/CheckIncludeFile.c.o  -o cmTC_4ebba -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_47fbc/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_47fbc.dir/build.make CMakeFiles/cmTC_47fbc.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_47fbc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_47fbc.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_47fbc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47fbc.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_47fbc.dir/CheckFunctionExists.c.o  -o cmTC_47fbc -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_7f603/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_7f603.dir/build.make CMakeFiles/cmTC_7f603.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7f603.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_7f603.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7f603
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f603.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_7f603.dir/CheckIncludeFile.c.o  -o cmTC_7f603 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_4dbe0/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_4dbe0.dir/build.make CMakeFiles/cmTC_4dbe0.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4dbe0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4dbe0.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4dbe0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dbe0.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4dbe0.dir/CheckFunctionExists.c.o  -o cmTC_4dbe0 -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_743c9/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_743c9.dir/build.make CMakeFiles/cmTC_743c9.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_743c9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_743c9.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_743c9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_743c9.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_743c9.dir/CheckIncludeFile.c.o  -o cmTC_743c9 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d148f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d148f.dir/build.make CMakeFiles/cmTC_d148f.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d148f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d148f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d148f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d148f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d148f.dir/CheckFunctionExists.c.o  -o cmTC_d148f -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_18dd3/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_18dd3.dir/build.make CMakeFiles/cmTC_18dd3.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_18dd3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_18dd3.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18dd3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18dd3.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_18dd3.dir/CheckIncludeFile.c.o  -o cmTC_18dd3 -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_840c8/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_840c8.dir/build.make CMakeFiles/cmTC_840c8.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_840c8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_840c8.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_840c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_840c8.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_840c8.dir/CheckFunctionExists.c.o  -o cmTC_840c8 -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_82d8e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_82d8e.dir/build.make CMakeFiles/cmTC_82d8e.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_82d8e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_82d8e.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82d8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82d8e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_82d8e.dir/CheckIncludeFile.c.o  -o cmTC_82d8e -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_cc65c/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_cc65c.dir/build.make CMakeFiles/cmTC_cc65c.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cc65c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cc65c.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cc65c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc65c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cc65c.dir/CheckFunctionExists.c.o  -o cmTC_cc65c -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_d2e3f/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_d2e3f.dir/build.make CMakeFiles/cmTC_d2e3f.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d2e3f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_d2e3f.dir/CheckIncludeFile.c.o   -c /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d2e3f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2e3f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_d2e3f.dir/CheckIncludeFile.c.o  -o cmTC_d2e3f -rdynamic 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_49d5e/fast"
+/usr/bin/gmake -f CMakeFiles/cmTC_49d5e.dir/build.make CMakeFiles/cmTC_49d5e.dir/build
+gmake[1]: 进入目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_49d5e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49d5e.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49d5e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49d5e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_49d5e.dir/CheckFunctionExists.c.o  -o cmTC_49d5e -rdynamic -lpthread 
+gmake[1]: 离开目录“/home/wxk/cpp/tensorRT_Pro/CMakeFiles/CMakeTmp”
+
+

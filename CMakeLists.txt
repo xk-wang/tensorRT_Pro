@@ -1,40 +1,39 @@
 cmake_minimum_required(VERSION 2.6)
 project(pro)
 
+# 必须要手动指定gcc和g++的路径
+# cmake -D CMAKE_C_COMPILER=/usr/local/bin/gcc -D CMAKE_CXX_COMPILER=/usr/local/bin/g++ ..
+
 option(CUDA_USE_STATIC_CUDA_RUNTIME OFF)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_BUILD_TYPE Debug)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/workspace)
-set(HAS_PYTHON OFF)
+set(HAS_PYTHON ON)
 
 # 如果要支持python则设置python路径
-set(PythonRoot "/data/datav/newbb/lean/anaconda3/envs/torch1.8")
-set(PythonName "python3.9")
+set(PythonRoot "/home/wxk/miniconda3/envs/torch1.7")
+set(PythonName "python3.7m")
+set(PYTHON_HEADER "/home/wxk/miniconda3/envs/torch1.7/include/python3.7m/")
+set(PYTHON_LIBPATH "/home/wxk/miniconda3/envs/torch1.7/lib/")
 
 # 如果你是不同显卡，请设置为显卡对应的号码参考这里：https://developer.nvidia.com/zh-cn/cuda-gpus#compute
-set(CUDA_GEN_CODE "-gencode=arch=compute_75,code=sm_75")
+set(CUDA_GEN_CODE "-gencode=arch=compute_61,code=sm_61")
 
 # 如果你的opencv找不到，可以自己指定目录
-set(OpenCV_DIR   "/data/datav/expstation/lean/opencv4.2.0/lib/cmake/opencv4/")
+set(OpenCV_DIR "/home/wxk/environment/opencv-4.2.0/lib64/cmake/opencv4")
 
-set(CUDA_TOOLKIT_ROOT_DIR     "/data/sxai/lean/cuda-10.2")
-set(CUDNN_DIR    "/data/sxai/lean/cudnn8.2.2.26")
-set(TENSORRT_DIR "/data/sxai/lean/TensorRT-8.0.1.6-cuda10.2-cudnn8.2")
+set(OpenCV_INCLUDE_DIRS "/home/wxk/environment/opencv-4.2.0/include/opencv4")
+set(OpenCV_LIBRARY_DIRS "/home/wxk/package/opencv-4.2.0/install/lib64")
 
-# set(CUDA_TOOLKIT_ROOT_DIR     "/data/sxai/lean/cuda-10.2")
-# set(CUDNN_DIR    "/data/sxai/lean/cudnn7.6.5.32-cuda10.2")
-# set(TENSORRT_DIR "/data/sxai/lean/TensorRT-7.0.0.11")
-
-# set(CUDA_TOOLKIT_ROOT_DIR  "/data/sxai/lean/cuda-11.1")
-# set(CUDNN_DIR    "/data/sxai/lean/cudnn8.2.2.26")
-# set(TENSORRT_DIR "/data/sxai/lean/TensorRT-7.2.1.6")
+set(CUDA_TOOLKIT_ROOT_DIR     "/home/wxk/environment/cuda10.2")
+set(CUDNN_DIR    "/home/wxk/environment/cudnn-10.2-linux-x64-v8.2.2.26")
+set(TENSORRT_DIR "/home/wxk/environment/TensorRT-8.0.1.6")
 
 # 因为protobuf，需要用特定版本，所以这里指定路径
-set(PROTOBUF_DIR "/data/sxai/lean/protobuf3.11.4")
-
+set(PROTOBUF_DIR "/home/wxk/environment/protobuf-3.11.4")
 
 find_package(CUDA REQUIRED)
-find_package(OpenCV)
+find_package(OpenCV 4 REQUIRED)
 
 include_directories(
     ${PROJECT_SOURCE_DIR}/src
@@ -46,6 +45,7 @@ include_directories(
     ${PROTOBUF_DIR}/include
     ${TENSORRT_DIR}/include
     ${CUDNN_DIR}/include
+    ${PYTHON_HEADER}
 )
 
 # 切记，protobuf的lib目录一定要比tensorRT目录前面，因为tensorRTlib下带有protobuf的so文件
@@ -55,6 +55,7 @@ link_directories(
     ${TENSORRT_DIR}/lib
     ${CUDA_TOOLKIT_ROOT_DIR}/lib64
     ${CUDNN_DIR}/lib
+    ${PYTHON_LIBPATH}
 )
 
 if("${HAS_PYTHON}" STREQUAL "ON")
@@ -73,6 +74,10 @@ target_link_libraries(plugin_list nvinfer nvinfer_plugin)
 target_link_libraries(plugin_list cuda cublas cudart cudnn)
 target_link_libraries(plugin_list protobuf pthread)
 target_link_libraries(plugin_list ${OpenCV_LIBS})
+
+message(STATUS "======OpenCV_INCLUDE_DIRS = ${OpenCV_INCLUDE_DIRS}")
+message(STATUS "======OpenCV_LIBS = ${OpenCV_LIBS}")
+message(STATUS "======OpenCV_LIBRARY_DIRS = ${OpenCV_LIBRARY_DIRS}")
 
 add_executable(pro ${cpp_srcs})
 

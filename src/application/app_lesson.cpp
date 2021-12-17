@@ -67,8 +67,8 @@ static void lesson1(){
     TRT::compile(
         TRT::Mode::FP32,            /** 模式, fp32 fp16 int8  **/
         1,                          /** 最大batch size        **/
-        "lesson1.onnx",             /** onnx文件，输入         **/
-        "lesson1.fp32.trtmodel"     /** trt模型文件，输出      **/
+        "/home/wxk/cpp/tensorRT_Pro/workspace/lesson1.onnx",             /** onnx文件，输入         **/
+        "/home/wxk/cpp/tensorRT_Pro/workspace/lesson1.fp32.trtmodel"     /** trt模型文件，输出      **/
     );
 
     /** 加载编译好的引擎 **/

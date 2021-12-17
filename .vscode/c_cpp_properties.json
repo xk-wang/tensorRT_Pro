@@ -4,15 +4,15 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/src/**",
-                "/data/sxai/lean/protobuf3.11.4/include/**",
-                "/data/sxai/lean/opencv4.2.0/include/opencv4/**",
-                "/data/sxai/lean/cuda-10.2/include/**",
-                "/data/sxai/lean/TensorRT-8.0.1.6-cuda10.2-cudnn8.2/include/**",
-                "/data/sxai/lean/cudnn7.6.5.32-cuda10.2/include/**",
-                "/data/datav/newbb/lean/anaconda3/envs/torch1.8/include/python3.9/**"
+                "/home/wxk/environment/protobuf-3.11.4/include/**",
+                "/home/wxk/environment/opencv-4.2.0/include/opencv4/**",
+                "/home/wxk/environment/cuda10.2/include/**",
+                "/home/wxk/environment/TensorRT-8.0.1.6/include/**",
+                "/home/wxk/environment/cudnn-10.2-linux-x64-v8.2.2.26/include/**",
+                "/home/wxk/miniconda3/envs/torch1.7/include/python3.7m/**"
             ],
             "defines": ["__CUDACC__", "HAS_PYTHON"],
-            "compilerPath": "/usr/bin/gcc", 
+            "compilerPath": "/usr/local/bin/gcc", 
             "cStandard": "gnu11",
             "cppStandard": "gnu++11",
             "intelliSenseMode": "linux-gcc-x64",
@@ -20,12 +20,12 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}/src/**",
-                    "/data/sxai/lean/protobuf3.11.4/include/**",
-                    "/data/sxai/lean/opencv4.2.0/include/opencv4/**",
-                    "/data/sxai/lean/cuda-10.2/include/**",
-                    "/data/sxai/lean/TensorRT-8.0.1.6-cuda10.2-cudnn8.2/include/**",
-                    "/data/sxai/lean/cudnn7.6.5.32-cuda10.2/include/**",
-                    "/data/datav/newbb/lean/anaconda3/envs/torch1.8/include/python3.9/**"
+                    "/home/wxk/environment/protobuf-3.11.4/include/**",
+                    "/home/wxk/environment/opencv-4.2.0/include/opencv4/**",
+                    "/home/wxk/environment/cuda10.2/include/**",
+                    "/home/wxk/environment/TensorRT-8.0.1.6/include/**",
+                    "/home/wxk/environment/cudnn-10.2-linux-x64-v8.2.2.26/include/**",
+                    "/home/wxk/miniconda3/envs/torch1.7/include/python3.7m/**"
                 ],
                 "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": ""
